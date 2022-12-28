@@ -1,0 +1,192 @@
+.hero
+{
+    width: 100vw;
+    max-height: 100vh;
+    background-image: url(	https://xpressrow.com/wp/cafena/wp-content/uploads/2022/04/hero-img-3-1.jpeg);
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.hero img
+{
+    width: 100%;
+    height: 100vh;
+    
+}
+.desc
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin: 12rem 0 10rem 10rem;
+    gap: 8px;
+}
+.main-heading
+{
+    color: #fff;
+    font-size: 96px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 6rem;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.sub-heading
+{
+    color: rgb(146, 140, 140);
+    font-weight: 200;
+    letter-spacing: 1.2px;
+}
+.button-show
+{
+    padding: 12px 10px;
+    color: black;
+    background-color: #C7A17A;
+    transition: all .6s;
+    cursor: pointer;
+    max-width: 160px;
+    font-weight: 800;
+    border-radius: 4px;
+    border: none;
+
+}
+.owner
+{
+    position: absolute;
+    top: 6rem;
+    left: 10rem;
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 32px;
+}
+.button-show:hover
+{
+    background-color: #212529;
+    color: #C7A17A;
+}
+.products
+{
+    display: flex;
+    width: 80vw;
+    height: 35rem;
+    background-color: #09090d;
+    margin: 10rem;
+}
+.products img
+{
+    max-width: 40rem;
+    height: 35rem;
+}
+.about
+{
+    display: flex;
+    flex-direction: column;
+    padding: 64px 64px 96px 96px;
+}
+.banner
+{
+    padding: 12px;
+    background-color: #C7A17A;
+    color: #fff;
+    max-width: 80px;
+    letter-spacing: 1.2px;
+    margin-bottom: 0;
+}
+.about-main
+{
+    font-size: 54px;
+    letter-spacing: 2.8px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.about-desc
+{
+    color: rgb(129, 125, 125);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.fom-container
+{
+    width: 80vw;
+    height: 60vh;
+    background-color: #09090d;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin: 10rem;
+
+}
+.form-heading
+{
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.form
+{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 60vh;
+}
+.map
+{
+    flex: 1;
+}
+.form input
+{
+    max-width: 24rem;
+    padding: 12px 24px;
+    background-color: #09090d;
+    color: #fff;
+    outline: none;
+    margin-bottom: 24px;
+}
+.form input::placeholder
+{
+    color: #fff;
+}
+
+.followers
+{
+    width: 75vw;
+    margin: 6rem 10rem;
+    background-color:#09090d;
+    padding: 2.5rem;
+    
+}
+.followers-list-heading
+{
+    font-size: 44px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.list-heading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #C7A17A;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+}
+.follower-name-list
+{
+    display: flex;
+    gap: 64px;
+    color: #C7A17A;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 17px;
+    letter-spacing: .8px;
+}
